@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.login
+{
+  width: 300px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.login>form{
+  width: 300px;
+  padding: 20px;
+  height: 300px;
+}
+
+form>div
+{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,form>div>button
+{
+  height: 40px;
+}
